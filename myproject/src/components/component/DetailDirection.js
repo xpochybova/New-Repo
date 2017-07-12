@@ -54,7 +54,7 @@ function ital(string){
 
 
 function DetailDirection(props) {
-const wellStyles = {padding: '10px',margin: '10px', fontSize: 16, border: '1px solid grey', borderRadius: '5px'};
+const wellStyles = {padding: '10px',margin: '10px', fontSize: 16, border: '1px solid grey',  backgroundColor: '#fbe7d8', borderRadius: '5px'};
 
 
   return (

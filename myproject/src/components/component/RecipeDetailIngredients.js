@@ -3,15 +3,14 @@ import PropTypes from 'prop-types';
 import { ListGroupItem, ListGroup} from 'react-bootstrap';
 
 function RecipeDetailIngredients(props) {
-const wellStyles = {padding: '10px',margin: '10px', fontSize: 20};
+const wellStyles = {padding: '10px',margin: '10px', backgroundColor: '#F16E10', fontSize: 20};
 
   return (
     <div>
 
        <ListGroup>
            {props.ingredients.map(ingredient => (
-
-             <ListGroupItem key={ingredient._id} >
+            <ListGroupItem key={ingredient._id} >
                <b>
                  {ingredient.amount}
                  {ingredient.amountUnit}
